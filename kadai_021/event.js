@@ -1,7 +1,7 @@
 const btn = document.getElementById('btn');
 const text = document.getElementById('text');
 
-setInterval(() => {
+setTimeout(() => {
 btn.addEventListener('click', () => {
   text.textContent = 'ボタンをクリックしました';
 });
